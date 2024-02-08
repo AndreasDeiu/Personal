@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+
+nav {
+    padding: 14px 16px;
+    background-color: green;
+}
+
+nav a {
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.logBtn {
+    float: right;
+    margin: -14px 20px
+}
