@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeiuTV.ro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="nav-links">
+                <i class="fas fa-user"></i>
+                <a href="index.html">Home</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="sign-button">
+                <span>You have account?</span>
+                <a href="#signin" onclick="displaysign()">Sign In</a>
+            </div>
+
+            <div id="displaysign">
+                <div class="displaysign-two">
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username" placeholder="Add an username.."><br>
+                    <label for="pwd">Password:</label><br>
+                    <input type="password" id="pwd" name="pwd" placeholder="Add a password..">
+                </div>
+            </div>
+        </nav>
+
+        <div id="h-elements">
+            <h3>Bun venit pe www.deiutv.ro</h3>
+            <hr>
+            <p id="typed-text">Acest site este unul beta. Bucura-te de functionalitati!</p>
+            <a href="index.html#flex-container">Go to down</a>
+        </div>
+    </header>
+
+
+    <div class="new-container">
+        <h3>Aceasta este un nou container</h3>
+    </div>
+
+    <div id="flex-container">
+        <div class="flex-item item-1">Item 1
+            <hr>
+            <span>Lorem ipsum dolor sit amet.</span>
+        </div>
+
+        <div class="flex-item item-2">Item 2
+            <hr>
+            <span>Lorem ipsum dolor sit amet.</span>
+        </div>
+        <div class="flex-item item-3">Item 3
+            <hr>
+            <span>Lorem ipsum dolor sit amet.</span>
+        </div>
+    </div>
+</header>
+
+    <footer>
+        <nav>
+            <h3>This is footer</h3>
+            <a href="#home">Go to Home</a>
+            <a href="#home">Go to Gallery</a>
+            <a href="#home">Go to Abouts Us</a>
+            <a href="#home">Go to Contact</a>
+        </nav>
+        
+        <p>The site is made with 3 by deiutv</p>
+    </footer>
+</body>
+
+<script src="script.js"></script>
+</html>
